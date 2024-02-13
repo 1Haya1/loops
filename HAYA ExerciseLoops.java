@@ -19,30 +19,14 @@ public class Main {
 //        }
 
         //EX2
-//        Scanner s = new Scanner(System.in);
-//
-//        System.out.print("Input a string: ");
-//        String inputString = s.nextLine();
-//
-//        String reversedString = reverseString(inputString); //تعيد نص بشكل معكوس
-//
-//        System.out.println("Reverse string: " + reversedString);
-//    }
-//
-//    public static String reverseString(String str) {
-//        char[] charArray = str.toCharArray(); // نحوله الى مصفوفه من الاحرف
-//
-//        int left = 0; //تعريف متغيرات لعملية التبادل
-//        int right = charArray.length - 1;
-//
-//        while (left < right) {
-//            char temp = charArray[left];
-//            charArray[left] = charArray[right];
-//            charArray[right] = temp;
-//            left++;
-//            right--;
-//        }
-//        return new String(charArray);
+// //      Scanner scanner = new Scanner(System.in);
+        // System.out.print("أدخل نصًا: ");
+        // String inputString = scanner.nextLine();
+
+        // //عكس النص 
+        // System.out.print("النص المعكوس: ");
+        // for (int i = inputString.length() - 1; i >= 0; i--) {
+        //     System.out.print(inputString.charAt(i));
 
 //EX3
 //        Scanner scanner = new Scanner(System.in);
